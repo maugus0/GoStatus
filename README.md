@@ -1,5 +1,12 @@
 # GoStatus
-This program is like a status checker for a list of websites that exists online. GoStatus takes a list of very common or popular websites and makes an HTTP Get Request to each of them to check whether they are up online and responding to HTTP Traffic.
+GoStatus is a basic Go program that checks the availability of websites by sending HTTP GET requests. 
+It takes a list of popular websites and verifies if they are online and responding to traffic.
+
+Features:
+- Sends HTTP requests to check website status.
+- Runs continuously at regular intervals.
+- Helps understand HTTP responses and network connectivity in Go.
+- This is a beginner-friendly project for learning HTTP requests, Go concurrency, and basic network programming.
 
 <img src="img/goStatus1.png" />
 
